@@ -2,8 +2,9 @@
   "name": "linkbox",
   "version": "0.1.0",
   "description": "A utility to collect links",
-  "main": "server.js",
+  "main": "server.mjs",
   "scripts": {
+    "dev": "node src/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/atomic-7/linkbox/issues"
   },
-  "homepage": "https://github.com/atomic-7/linkbox#readme"
+  "homepage": "https://github.com/atomic-7/linkbox#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

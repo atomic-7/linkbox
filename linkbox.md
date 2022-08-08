@@ -5,13 +5,14 @@ Could be extended to synchronize bookmarks.
 
 ## REST API
 ```
-get lb/<user>/folder/id
-get lb/<user>/folder/id
-post lb/<user>/folder&name=""&link=""
-put lb/<user>/folder/id&name=""
-delete lb/<user>/folder/
-delete lb/<user>/folder/id
+get api/:user/:folder/:id
+get api/:user/:folder/
+post api/:user/:folder&name=""&link=""
+put api/:user/:folder/:id&name=""
+delete api/:user/:folder/
+delete api/:user/:folder/:id
 ```
+Not specifying a user should operate on a default user
 
 ## Name
 * ~~Linkbucket~~
